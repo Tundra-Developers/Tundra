@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="../lib/lib_ui.css" type="text/css" rel="stylesheet">
+    <link href="../lib/lib_text.css" type="text/css" rel="stylesheet">
+    <link href="../lib/lib_tundra.css" type="text/css" rel="stylesheet">
+    <link href="../lib/lib_animations.css" type="text/css" rel="stylesheet">
+    <link href="../lib/lib_blog.css" type="text/css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../favicon.png">
+    <title>Tundra-Blog</title>
+</head>
+    
+<header>
+    <div id="navbar">
+        
+        <ul>
+            <li class="navbar_links"><a href="../index.html">Tundra</a></li>
+            <li class="navbar_links"><a href="about.html">About</a></li>
+            <li class="navbar_links"><a href="press.html">Press</a></li>
+            <li class="navbar_links"><a href="blog.html">Blog</a></li>
+            <li class="navbar_links"><a href="wip.html">Wip</a></li>
+            <li class="discord-btn01"><a href="https://discord.gg/3Y7nkha">Discord</a></li>
+            <li class="twitter-btn01"><a href="https://twitter.com/TundraProject">Twitter</a></li>
+            <li class="youtube-btn01"><a href="https://www.youtube.com/channel/UCMKqaii60VBYZCMjaskw69A">Youtube</a></li>
+        </ul>
+    </div>
+</header>
+    
+<body id="bg"> 
+<div class="sidebar">
+    <button class="tablinks" onclick="changeBlogPage(event, 'Latest')" id="defaultOpen">Latest</button>
+    <button class="tablinks" onclick="changeBlogPage(event, 'blog3')">Blog 3</button>
+    <button class="tablinks" onclick="changeBlogPage(event, 'blog2')">Blog 2</button>
+    <button class="tablinks" onclick="changeBlogPage(event, 'blog1')">Blog 1</button>
+</div>
+
+<div id="Latest" class="blog_main">
+    <h2 class="blog_text">Latest Blog</h2>
+</div>
+
+<div id="blog3" class="blog_main">
+    <h2 class="blog_text">Blog Three</h2> 
+</div>
+
+<div id="blog2" class="blog_main">
+    <h2 class="blog_text">Blog Two</h2>
+</div>
+    
+<div id="blog1" class="blog_main">
+    <h2 class="blog_text">Blog One</h2>
+</div>
+
+<script>
+function changeBlogPage(evt, blogName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("blog_main");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(blogName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+    
+</html>

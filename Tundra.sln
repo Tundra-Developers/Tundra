@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DC906F5D-A1F6-4AEF-B477-D7180EF79D86}"
+	ProjectSection(SolutionItems) = preProject
+		lib\lib_animations.css = lib\lib_animations.css
+		lib\lib_blog.css = lib\lib_blog.css
+		lib\lib_text.css = lib\lib_text.css
+		lib\lib_tundra.css = lib\lib_tundra.css
+		lib\lib_ui.css = lib\lib_ui.css
+		lib\lib_wip.css = lib\lib_wip.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Media", "Media", "{8F48777B-07A2-40A9-9015-7FD46F05055D}"
+	ProjectSection(SolutionItems) = preProject
+		media\logo01.png = media\logo01.png
+		media\press-kit.zip = media\press-kit.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fonts", "Fonts", "{C854FC1A-E095-4FEF-B795-26124A1F95F9}"
+	ProjectSection(SolutionItems) = preProject
+		media\fonts\Roboto-Black.ttf = media\fonts\Roboto-Black.ttf
+		media\fonts\Roboto-BlackItalic.ttf = media\fonts\Roboto-BlackItalic.ttf
+		media\fonts\Roboto-Bold.ttf = media\fonts\Roboto-Bold.ttf
+		media\fonts\Roboto-BoldItalic.ttf = media\fonts\Roboto-BoldItalic.ttf
+		media\fonts\Roboto-Italic.ttf = media\fonts\Roboto-Italic.ttf
+		media\fonts\Roboto-Light.ttf = media\fonts\Roboto-Light.ttf
+		media\fonts\Roboto-LightItalic.ttf = media\fonts\Roboto-LightItalic.ttf
+		media\fonts\Roboto-Medium.ttf = media\fonts\Roboto-Medium.ttf
+		media\fonts\Roboto-MediumItalic.ttf = media\fonts\Roboto-MediumItalic.ttf
+		media\fonts\Roboto-Regular.ttf = media\fonts\Roboto-Regular.ttf
+		media\fonts\Roboto-Thin.ttf = media\fonts\Roboto-Thin.ttf
+		media\fonts\Roboto-ThinItalic.ttf = media\fonts\Roboto-ThinItalic.ttf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{680DBDC2-F967-4136-A81F-F70F909E0183}"
+	ProjectSection(SolutionItems) = preProject
+		media\images\bg.png = media\images\bg.png
+		media\images\bg_blur.png = media\images\bg_blur.png
+		media\images\logo.png = media\images\logo.png
+		media\images\og.gif = media\images\og.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team", "Team", "{63C490CA-2C78-4374-AE2F-5001780D0C28}"
+	ProjectSection(SolutionItems) = preProject
+		media\team\Toby.png = media\team\Toby.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{6232B60F-E066-4E8A-A22D-187CE6371199}"
+	ProjectSection(SolutionItems) = preProject
+		pages\about.html = pages\about.html
+		pages\blog.html = pages\blog.html
+		favicon.png = favicon.png
+		index.html = index.html
+		pages\press.html = pages\press.html
+		pages\wip.html = pages\wip.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C854FC1A-E095-4FEF-B795-26124A1F95F9} = {8F48777B-07A2-40A9-9015-7FD46F05055D}
+		{680DBDC2-F967-4136-A81F-F70F909E0183} = {8F48777B-07A2-40A9-9015-7FD46F05055D}
+		{63C490CA-2C78-4374-AE2F-5001780D0C28} = {8F48777B-07A2-40A9-9015-7FD46F05055D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E07D21BC-00C1-414E-89D8-C5A399523A9D}
+	EndGlobalSection
+EndGlobal

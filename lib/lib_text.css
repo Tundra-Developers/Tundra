@@ -1,0 +1,281 @@
+/*Custom fonts*/
+@font-face {
+    font-family: "Roboto01";
+    src: url(../media/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "Roboto02";
+    src: url(../media/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto03";
+    src: url(../media/fonts/Roboto-Thin.ttf);
+}
+
+.text_defult {
+    font-family: Roboto03;
+    color: rgb(235, 235, 235);
+    padding-left: 10px;
+}
+
+/*Text Styles*/
+.text_r3_white {
+    font-family: Roboto03;
+    color: rgb(255, 255, 255);
+}
+
+.text_r3_black {
+    font-family: Roboto03;
+    color: rgb(0, 0, 0);
+}
+
+.text_r3_grey01 {
+    font-family: Roboto03;
+    color: rgb(245, 245, 245);
+}
+.text_r3_grey02 {
+    font-family: Roboto03;
+    color: rgb(235, 235, 235);
+}
+.text_r3_grey03 {
+    font-family: Roboto03;
+    color: rgb(225, 225, 225);
+}
+.text_r3_grey04 {
+    font-family: Roboto03;
+    color: rgb(215, 215, 215);
+}
+.text_r3_grey05 {
+    font-family: Roboto03;
+    color: rgb(205, 205, 205);
+}
+.text_r3_grey06 {
+    font-family: Roboto03;
+    color: rgb(195, 195, 195);
+}
+.text_r3_grey07 {
+    font-family: Roboto03;
+    color: rgb(185, 185, 185);
+}
+.text_r3_grey08 {
+    font-family: Roboto03;
+    color: rgb(175, 175, 175);
+}
+.text_r3_grey09 {
+    font-family: Roboto03;
+    color: rgb(165, 165, 165);
+}
+.text_r3_grey10 {
+    font-family: Roboto03;
+    color: rgb(155, 155, 155);
+}
+.text_r3_grey11 {
+    font-family: Roboto03;
+    color: rgb(145, 145, 145);
+}
+.text_r3_grey12 {
+    font-family: Roboto03;
+    color: rgb(135, 135, 135);
+}
+.text_r3_grey13 {
+    font-family: Roboto03;
+    color: rgb(125, 125, 125);
+}
+.text_r3_grey14 {
+    font-family: Roboto03;
+    color: rgb(115, 115, 115);
+}
+.text_r3_grey15 {
+    font-family: Roboto03;
+    color: rgb(105, 105, 105);
+}
+.text_r3_grey16 {
+    font-family: Roboto03;
+    color: rgb(95, 95, 95);
+}
+.text_r3_grey17 {
+    font-family: Roboto03;
+    color: rgb(85, 85, 85);
+}
+.text_r3_grey18 {
+    font-family: Roboto03;
+    color: rgb(75, 75, 75);
+}
+.text_r3_grey19 {
+    font-family: Roboto03;
+    color: rgb(65, 65, 65);
+}
+.text_r3_grey20 {
+    font-family: Roboto03;
+    color: rgb(55, 55, 55);
+}
+.text_r3_grey21 {
+    font-family: Roboto03;
+    color: rgb(45, 45, 45);
+}
+.text_r3_grey22 {
+    font-family: Roboto03;
+    color: rgb(35, 35, 35);
+}
+.text_r3_grey23 {
+    font-family: Roboto03;
+    color: rgb(25, 25, 25);
+}
+.text_r3_grey24 {
+    font-family: Roboto03;
+    color: rgb(15, 15, 15);
+}
+.text_r3_grey25 {
+    font-family: Roboto03;
+    color: rgb(5, 5, 5);
+}
+
+.text_r3_red {
+    font-family: Roboto03;
+    color: rgb(255, 0, 0);
+}
+
+.text_r3_red01a {
+    font-family: Roboto03;
+    color: rgb(255, 5, 5);
+}
+.text_r3_red02a {
+    font-family: Roboto03;
+    color: rgb(255, 15, 15);
+}
+.text_r3_red03a {
+    font-family: Roboto03;
+    color: rgb(255, 25, 25);
+}
+.text_r3_red04a {
+    font-family: Roboto03;
+    color: rgb(255, 35, 35);
+}
+.text_r3_red05a {
+    font-family: Roboto03;
+    color: rgb(255, 45, 45);
+}
+.text_r3_red06a {
+    font-family: Roboto03;
+    color: rgb(255, 55, 55);
+}
+.text_r3_red07a {
+    font-family: Roboto03;
+    color: rgb(255, 55, 55);
+}
+.text_r3_red08a {
+    font-family: Roboto03;
+    color: rgb(255, 65, 65);
+}
+.text_r3_red9a {
+    font-family: Roboto03;
+    color: rgb(255, 75, 75);
+}
+.text_r3_red10a {
+    font-family: Roboto03;
+    color: rgb(255, 85, 85);
+}
+.text_r3_red11a {
+    font-family: Roboto03;
+    color: rgb(255, 95, 95);
+}
+.text_r3_red12a {
+    font-family: Roboto03;
+    color: rgb(255, 105, 105);
+}
+
+.text_r3_red01b {
+    font-family: Roboto03;
+    color: rgb(245, 0, 0);
+}
+.text_r3_red02b {
+    font-family: Roboto03;
+    color: rgb(235, 0, 0);
+}
+.text_r3_red03b {
+    font-family: Roboto03;
+    color: rgb(225, 0, 0);
+}
+.text_r3_red04b {
+    font-family: Roboto03;
+    color: rgb(215, 0, 0);
+}
+.text_r3_red05b {
+    font-family: Roboto03;
+    color: rgb(205, 0, 0);
+}
+.text_r3_red06b {
+    font-family: Roboto03;
+    color: rgb(195, 0, 0);
+}
+.text_r3_red07b {
+    font-family: Roboto03;
+    color: rgb(185, 0, 0);
+}
+.text_r3_red08b {
+    font-family: Roboto03;
+    color: rgb(175, 0, 0);
+}
+.text_r3_red09b {
+    font-family: Roboto03;
+    color: rgb(165, 0, 0);
+}
+.text_r3_red10b {
+    font-family: Roboto03;
+    color: rgb(155, 0, 0);
+}
+.text_r3_red11b {
+    font-family: Roboto03;
+    color: rgb(145, 0, 0);
+}
+
+.text_r3_brown01 {
+    font-family: Roboto03;
+    color: rgb(135, 0, 0);
+}
+.text_r3_brown02 {
+    font-family: Roboto03;
+    color: rgb(125, 0, 0);
+}
+.text_r3_brown03 {
+    font-family: Roboto03;
+    color: rgb(115, 0, 0);
+}
+.text_r3_brown04 {
+    font-family: Roboto03;
+    color: rgb(105, 0, 0);
+}
+.text_r3_brown05 {
+    font-family: Roboto03;
+    color: rgb(95, 0, 0);
+}
+.text_r3_brown06 {
+    font-family: Roboto03;
+    color: rgb(85, 0, 0);
+}
+.text_r3_brown07 {
+    font-family: Roboto03;
+    color: rgb(75, 0, 0);
+}
+.text_r3_brown08 {
+    font-family: Roboto03;
+    color: rgb(65, 0, 0);
+}
+.text_r3_brown09 {
+    font-family: Roboto03;
+    color: rgb(55, 0, 0);
+}
+.text_r3_brown10 {
+    font-family: Roboto03;
+    color: rgb(45, 0, 0);
+}
+
+.text_r3_green {
+    font-family: Roboto03;
+    color: rgb(0, 255, 0);
+}
+
+.text_r3_blue {
+    font-family: Roboto03;
+    color: rgb(0, 0, 255);
+}
