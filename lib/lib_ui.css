@@ -45,6 +45,7 @@
 /*redef*/
 html {
     scroll-behavior: smooth;
+    animation: load-animation 2.0s;
 }
 
 

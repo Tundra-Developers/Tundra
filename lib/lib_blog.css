@@ -1,11 +1,11 @@
 /* Sidebar */
-.sidebar {
+.blog_sidebar {
     position: fixed;
     overflow-y: auto;
     
-    top: 5%;
+    top: 6.5%;
     left: 0;
-    height: 95%;
+    height: 93.5%;
     width: 20%;
     
     text-align: center;
@@ -19,7 +19,7 @@
 }
 
 /* Buttons that are used to open the sidebar content */
-.sidebar button {
+.blog_sidebar button {
     padding: 22px 16px;
     width: 100%;
     border: none;
@@ -35,12 +35,12 @@
 }
 
 /* Background color of buttons on hover */
-.sidebar button:hover {
+.blog_sidebar button:hover {
     background-color: rgba(55, 55, 55, 1);
 }
 
 /* Active/current "sidebar button" class */
-.sidebar button.active {
+.blog_sidebar button.active {
     background-color: rgb(205, 205, 205);
     color: rgba(35, 35, 35, 1);
 }
@@ -50,10 +50,10 @@
     position: fixed;
     overflow-y: auto;
     
-    top: 5%;
+    top: 6.5%;
     left: 20%;
     width: 80%;
-    height: 95%;
+    height: 93.5%;
     z-index: 1;
     
     text-align: center;
