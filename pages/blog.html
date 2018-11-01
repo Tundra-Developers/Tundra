@@ -30,29 +30,71 @@
 </header>
     
 <body id="bg"> 
-<div class="sidebar">
-    <button class="tablinks" onclick="changeBlogPage(event, 'Latest')" id="defaultOpen">Latest</button>
-    <button class="tablinks" onclick="changeBlogPage(event, 'blog3')">Blog 3</button>
-    <button class="tablinks" onclick="changeBlogPage(event, 'blog2')">Blog 2</button>
-    <button class="tablinks" onclick="changeBlogPage(event, 'blog1')">Blog 1</button>
+<div class="blog_sidebar">
+    <button class="tablinks" onclick="changeBlogPage(event, '1/11/2018')" id="defaultOpen">1/11/2018</button>
+    <button class="tablinks" onclick="changeBlogPage(event, '1/12/2018')" id="defaultOpen">1/12/2018</button>
 </div>
 
-<div id="Latest" class="blog_main">
-    <h2 class="blog_text">Latest Blog</h2>
+<div id="1/11/2018" class="blog_main">
+    <h1 class="blog_text">Tundra Development Blog: 1/11/18</h1>
+    <p class="blog_text">Hello all, welcome to the very first development Blog post. As this is the first blog post we've done, we would like to talk about what we’ve been doing since the project started, in April of 2018.
+    </p>
+    <h2 class="blog_text">Content:</h2>
+    <p class="blog_text">We've been working herd to make sure that this blog post isn't disappointing and we think that we've definitely achieved that. Here's some of the stuff that we've created over the past six and a half months.</p>
+    
+    <h3 class="blog_text">Maps</h3>
+    <p class="blog_text">The first map in the Bunker section has a layout that's nearly complete, so naturally, that's the only one that we're going to show off today.</p>
+    <div class="wip-gallery-row">
+        <div class="wip-gallery-container">
+            <img class="wip-gallery-image" src="../media/maps/bunker_010006.jpg">
+            <h2 class="wip-gallery-text">Underwater.</h2>
+        </div>
+        
+        <div class="wip-gallery-container">
+            <img class="wip-gallery-image" src="../media/maps/bunker_010008.jpg">
+            <h2 class="wip-gallery-text">Pipe Room.</h2>
+        </div>
+        
+        <div class="wip-gallery-container">
+            <img class="wip-gallery-image" src="../media/maps/bunker_010011.jpg">
+            <h2 class="wip-gallery-text">Generator room.</h2>
+        </div>
+    </div>
+    <h3 class="blog_text">Soundtrack</h3>
+    <p class="blog_text">Here's the first track in our soundtrack, it's an ambient track for Tundra's cave section and it's not finished yet. When its intended environment is finalised, out music composer will finish it.</p>
+    <div class="audio-container">
+        <audio controls>
+          <source src="../media/soundtrack/Tundra-01.mp3" type="audio/mpeg">
+        Your browser does not support HTML5 audio.
+        </audio>
+    </div>
+    
+    <h2 class="blog_text">This months questions:</h2>
+    <h3 class="blog_text">What's the story line based on and how completed is it?</h3>
+    <p class="blog_text">Our story is based on Epistle 3. Our interpretation of it is nearly finished;
+    we got most of that stuff sorted quite a while ago.</p>
+    
+    <h3 class="blog_text">When will it be playable? When will there be a beta release?</h3>
+    <p class="blog_text">We've already started supporting playtester builds which will be updated multiple times a month. 
+    We don't know when the multiplayer mode will become available, 
+    probably some time before we enter open beta on steam.</p>
+    
+    <h3 class="blog_text">How are you planning to ensure the game doesn't enter development hell and never release like the majority of HL2 mods, 
+    especially from an inexperienced team?</h3>
+    <p class="blog_text">We have decent team chemistry and understand how to be effective and efficient 
+    when it comes to Source Engine development. 
+    We understand how to playtest properly and have access to great advice from more experienced game developers.</p>
+
+    <h3 class="blog_text">Why create an Epistle 3 project, when there's already a few?</h3>
+    <p class="blog_text">Why not? =P</p>
+    
+    <h1 class="blog_text">Next post will be in december of this year.</p>
 </div>
 
-<div id="blog3" class="blog_main">
-    <h2 class="blog_text">Blog Three</h2> 
-</div>
-
-<div id="blog2" class="blog_main">
-    <h2 class="blog_text">Blog Two</h2>
+<div id="1/12/2018" class="blog_main">
+    <h2 class="blog_text">Coming on the 1st of december, 2018</h2> 
 </div>
     
-<div id="blog1" class="blog_main">
-    <h2 class="blog_text">Blog One</h2>
-</div>
-
 <script>
 function changeBlogPage(evt, blogName) {
     var i, tabcontent, tablinks;
